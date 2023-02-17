@@ -27,4 +27,9 @@ class DemoController extends Controller
 		// return $pdf->stream('info.pdf', array("Attachment" => false));
 		// return $pdf->stream('info.pdf
     }	
+
+    public function checkoutMainDm($value='')
+    {
+    	# code...
+    }
 }
