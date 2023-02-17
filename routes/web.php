@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DemoController;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +21,5 @@ Route::get('/', function () {
 
 
 Route::view('home','pages.home');
+
+Route::get('/pdf-demo',[DemoController::class,'pdfDemo']);
