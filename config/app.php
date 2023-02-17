@@ -175,6 +175,7 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         // Barryvdh\DomPDF\Facade\Pdf::class,
+        Davcpas1234\LaravelPdfViewer\LaravelPdfViewerServiceProvider::class,
 
     ],
 
