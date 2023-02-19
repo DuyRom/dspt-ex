@@ -9,6 +9,7 @@ class DemoController extends Controller
 {
     public function pdfDemo()
     {
+
     	$data = [
     		'id'=>1,
     		'name'=>'demo'
@@ -18,4 +19,18 @@ class DemoController extends Controller
      {
          # code...
      }
+
+    	return view('pdf.invoice');
+    }	
+
+    public function mainBranch($value='')
+    {
+    	# code...
+    }
+
+    public function devBranch($value='')
+    {
+        return true;
+    }
+
 }
