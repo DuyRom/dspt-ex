@@ -16,4 +16,9 @@ class DemoController extends Controller
     {
     	# code...
     }
+
+    public function devBranch($value='')
+    {
+        return true;
+    }
 }
