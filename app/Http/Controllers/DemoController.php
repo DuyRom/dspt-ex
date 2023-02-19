@@ -12,7 +12,7 @@ class DemoController extends Controller
     	return view('pdf.invoice');
     }	
 
-    public function fnMain($value='')
+    public function mainBranch($value='')
     {
     	# code...
     }
